@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+body{
+    background-image  : url("/Imagens/Pizza2.jpg");
+    background-repeat: no-repeat;
+    list-style: none;
+    background-size: 100%;
+
+}
+
+#menu1{
+    list-style: none;
+    padding: 0;
+    background-image: url(Imagens/Emenda5.jpg);
+    background-size: 48%;
+}
+
+#menu1 li{
+    display: inline;
+}
+#menu1 li a{
+    color: black;
+    padding: 10px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+form{
+    color: white;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#card1{
+    color: white;
+}
+
+
