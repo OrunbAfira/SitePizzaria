@@ -1,32 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzaria</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-</head>
-
-    
+<?php require 'header.php' ?>
+<link rel="stylesheet" href="index.css">
 <body>
-    <ul id="menu1">
-        <li><a href="index.html" ><img src="/Imagens/pizza.png" width="9%" align="div"></a></li>
-        <li><a href="Login.html">Login</a></li>
-        <li><a href="Cardapio.html">Cardapio</a></li>
-        <li><a href="faleConosco.html">Fale Conosco</a></li>
-    </ul>    
-<!--
-    <header>
-        <a href="index.html" ><img src="pizza.png" width="9%" align="div"></a>
-        <a href="Login.html">Login</a>
-        <a href="Cardapio.html">Cardapio</a>
-        <a href="faleConosco.html">Fale Conosco</a>
-    </header>
-    <form action="">
--->
-
 <div class="container">
     <h1 id="card1" class="text-center my-5">Cardápio de Pizzaria</h1>
     <!-- Pizza Doce -->
@@ -41,7 +15,7 @@
               <th>Preço</th>
             </tr>
           </thead>
-          <tbody>
+          <body>
             <tr>
               <td>Chocolate com Morango</td>
               <td>Pequena</td>
@@ -57,7 +31,7 @@
               <td>Grande</td>
               <td>R$ 35,00</td>
             </tr>
-          </tbody>
+          </body>
         </table>
       </div>
     </div>
@@ -128,6 +102,3 @@
    
 
   </body>
-
-</body>
-</html>
